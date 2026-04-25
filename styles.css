@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("fonts/Minecraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pixel-horror";
+    src: url("fonts/VCR_OSD_MONO_1.001.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Minecraft", sans-serif;
+}
+h2 {
+    font-family: "Pixel-horror", sans-serif;
+}
+p {
+    font-family: "Pixel-horror", sans-serif;
+    text-align: left;
+    align-items: left;
+    margin-left: 5%; margin-right: 60%;
+    padding: 10px;
+}
+.leftright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.leftright p {
+    flex: 1;
+    margin: 0;
+    margin-left: 12%;
+}
+p {
+    margin-left: 12%;
+    font-family: sans-serif;
+}
+.leftright img {
+    max-width: 45%;
+    height: auto;
+    margin-right:3%;
+}
+dt {
+    font-family: "Minecraft", sans-serif;
+    margin-bottom: 7px;
+}
+dd {
+    margin-bottom: 5px;
+    font-family: "Pixel-horror", sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+label {
+    margin-bottom: -1px;
+}
+button {
+    font-family: "pixel-horror", sans-serif;
+    font-size: 200%;
+}
+label {
+    font-family: "Pixel-horror", sans-serif;
+}
